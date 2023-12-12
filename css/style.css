@@ -5,6 +5,20 @@ body {
   color: #fff; /* White text */
 }
 
+#map{
+ width: 80%;
+ height: 500px;
+ border-radius: 25px;
+ border-color: #FE5F55;
+ border-width: thick;
+ border-style: dotted;
+ margin: 20px;
+ margin-top: 200px;
+ max-width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
 nav {
   background-color: #5CACEE; /* Light blue */
   color: #fff;
