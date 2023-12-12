@@ -1,17 +1,18 @@
 body {
-  background: linear-gradient(to right, #3498DB, #007BFF); /* Blue gradient */
-  font-family: 'Arial', sans-serif; /* Changed font family */
+  background: linear-gradient(to right, #4F86F7, #3A66CA); /* Blue gradient */
+  font-family: 'Roboto', Arial, sans-serif; /* Updated font-family */
   font-size: 24px;
+  color: #fff; /* White text */
 }
 
 nav {
-  background-color: #3498DB; /* Blue */
-  color: #fff; /* White text */
-  font-family: 'Arial', sans-serif; /* Changed font family */
+  background-color: #5D9BEB; /* Light blue */
+  color: #fff;
+  font-family: 'Roboto', Arial, sans-serif;
   padding: 15px;
   position: fixed;
   top: 0;
-  left: 0%;
+  left: 0;
   width: 100%;
 }
 
@@ -30,7 +31,7 @@ section:first-child {
 }
 
 section {
-  background-color: #EAF2F8; /* Light blue */
+  background-color: #E6F7FF; /* Very light blue */
   padding: 22px;
   max-width: 950px;
   margin: 20px auto;
@@ -39,12 +40,12 @@ section {
 
 h1, h2, h3, p, ul, li, ol, dt, dd {
   text-align: center;
-  color: #333; /* Dark gray */
+  color: #333; /* Darker text color */
   font-size: 1rem;
 }
 
 a {
-  color: #3498DB; /* Blue */
+  color: #4577B4; /* Darker blue for links */
   text-decoration: none;
 }
 
