@@ -12,7 +12,7 @@ function initMap() {
   });
 
   var home = new google.maps.Marker({
-    position: { lat: 41.868690, lng: -87.625380 },
+    position: { lat: 41.650454, lng: -87.539063 },
     map: map
   });
 
