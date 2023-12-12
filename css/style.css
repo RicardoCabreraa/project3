@@ -1,12 +1,12 @@
 body {
-  background: linear-gradient(to right, #4F86F7, #3A66CA); /* Blue gradient */
-  font-family: 'Roboto', Arial, sans-serif; /* Updated font-family */
+  background: linear-gradient(to right, #3498DB, #2071B7);
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 24px;
   color: #fff; /* White text */
 }
 
 nav {
-  background-color: #5D9BEB; /* Light blue */
+  background-color: #5CACEE; /* Light blue */
   color: #fff;
   font-family: 'Roboto', Arial, sans-serif;
   padding: 15px;
@@ -31,11 +31,12 @@ section:first-child {
 }
 
 section {
-  background-color: #E6F7FF; /* Very light blue */
+  background-color: #fff;
   padding: 22px;
   max-width: 950px;
   margin: 20px auto;
   border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3, p, ul, li, ol, dt, dd {
@@ -45,7 +46,7 @@ h1, h2, h3, p, ul, li, ol, dt, dd {
 }
 
 a {
-  color: #4577B4; /* Darker blue for links */
+  color: #2071B7;
   text-decoration: none;
 }
 
@@ -77,3 +78,4 @@ iframe {
   max-width: 100%;
   height: auto;
 }
+
