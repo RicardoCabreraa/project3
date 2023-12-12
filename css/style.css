@@ -1,19 +1,91 @@
 body {
-  background: linear-gradient(to right, #3498db, #2980b9);
-  color: #fff;
-  font-family: 'Arial', sans-serif; 
+  background: linear-gradient(to right, #007BFF, #00BFFF); /* Blue gradient */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: #333;
   margin: 0;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
-.box {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px solid #fff;
-  border-radius: 10px; 
-  padding: 30px; 
-  text-align: center; 
-  font-size: 18px; 
+
+nav {
+  background-color: #3498DB; /* Blue */
+  color: #fff; /* White text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Added box shadow for elevation effect */
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+section:first-child {
+  margin-top: 90px;
+}
+
+section {
+  background-color: #ECF0F1; /* Light gray */
+  padding: 22px;
+  max-width: 950px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for elevation effect */
+}
+
+h1, h2, h3, p, ul, li, ol, dt, dd {
+  text-align: center;
+  color: #333;
+}
+
+a {
+  color: #3498DB; /* Blue */
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+ol li {
+  text-align: center;
+}
+
+img, iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.fragranceNote {
+  font-weight: bold;
+  color: #3498DB; /* Blue */
+}
+
+.sideBySide {
+  display: flex;
+  justify-content: space-between; /* Added spacing between elements */
 }
