@@ -28,6 +28,9 @@ nav {
   width: 100%;
 }
 
+.center {
+  text-align: center;
+}
 nav ul {
   list-style: none;
   text-align: center;
