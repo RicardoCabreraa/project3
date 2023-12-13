@@ -78,3 +78,13 @@ iframe {
   max-width: 100%;
   height: auto;
 }
+
+#map{
+ width: 80%;
+ height: 500px;
+ margin: 20px;
+ margin-top: 200px;
+ max-width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
