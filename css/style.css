@@ -81,6 +81,26 @@ img {
   max-width: 100%;
   height: auto;
 }
+@media screen and (max-width: 800px) {
+  section {
+    background-color: #c2d9dd;
+    color: #091826;
+  }
+  nav {
+    font-size: large;
+    font-family: monospace;
+  }
+  html {
+    background-color: #4e858e;
+  }
+  a {
+    color: #091826;
+  }
+}
+@font-face {
+  font-family: "MondayFeelings";
+  src: url(css/fonts/mondayfeelings.ttf) format(truetype);
+}
 
 iframe {
   max-width: 100%;
