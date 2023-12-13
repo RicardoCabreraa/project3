@@ -2,14 +2,14 @@ body {
   background: linear-gradient(to right, #3498DB, #2071B7);
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 24px;
-  color: #fff; /* White text */
+  color: #fff;
 }
 
 nav {
-  background-color: #5CACEE; /* Light blue */
+  background-color: #5CACEE;
   color: #fff;
   font-family: 'Roboto', Arial, sans-serif;
-  padding: 15px;
+  padding: 30px;
   position: fixed;
   top: 0;
   left: 0;
