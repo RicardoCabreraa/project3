@@ -12,8 +12,9 @@ body {
     border-width: thin;
     margin: 5px auto;
 }
+
 nav {
-  background-color: #5CACEE; /* Light blue */
+  background-color: #5CACEE;
   color: #fff;
   font-family: 'Roboto', Arial, sans-serif;
   padding: 15px;
