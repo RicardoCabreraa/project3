@@ -21,10 +21,11 @@ nav {
   font-family: 'Roboto', Arial, sans-serif;
   padding: 15px;
   position: fixed;
+  overflow: hidden;
+  padding: 10px;
   display: flex;
   justify-content: center;
   top: 0;
-  left: 0;
   width: 100%;
 }
 
