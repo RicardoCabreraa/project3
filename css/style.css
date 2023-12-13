@@ -173,6 +173,7 @@ iframe {
 #map{
  width: 80%;
  height: 500px;
+ border-radius: 25px;
  margin-top: 200px;
  margin-left: auto;
  margin-right: auto;
