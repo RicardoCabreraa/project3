@@ -14,26 +14,6 @@ body {
   color: #fff; /* White text */
 }
 
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-}
-
-  nav {
-    padding: 10px;
-    text-align: center;
-}
-
-  nav ul {
-    display: block;
-}
-
-  nav li {
-    display: block;
-    margin-right: 0;
-    margin-bottom: 10px;
-}
-
 nav {
   background-color: #5CACEE; /* Light blue */
   color: #fff;
